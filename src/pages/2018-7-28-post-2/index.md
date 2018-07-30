@@ -1,7 +1,7 @@
 ---
 path: "/post-2"
-date: "2018-06-26"
-title: "My First Gatsby Post"
+date: "2018-06-27"
+title: "My third Gatsby Post"
 author: "Brayn Brigoli"
 ---
 

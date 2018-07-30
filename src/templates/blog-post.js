@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
+const ReactDisqusThread = require('react-disqus-thread');
+
 
 export default function Template({data}) {
 	const post = data.markdownRemark
@@ -9,8 +11,16 @@ export default function Template({data}) {
 		<Link to="/blog">Go Back</Link>
 		<hr/>
 		<h1>{post.frontmatter.title}</h1>
+			<h1>{post.frontmatter.title}</h1>
+		<p>{post.frontmatter.path}</p>
 		<h4>Posted by {post.frontmatter.author} on { post.frontmatter.date} </h4>
 		<div dangerouslySetInnerHTML={{ __html:post.html }}/>
+		    <ReactDisqusThread
+       		 shortname="brigzdev-com"
+          identifier={post.frontmatter.path}
+          title={post.frontmatter.title}
+          url="brigzdev.com"
+          />
 		</div>
 		)
 }
