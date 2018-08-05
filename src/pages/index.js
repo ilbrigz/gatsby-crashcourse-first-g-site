@@ -1,12 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Hero from '../components/Hero.js'
 
 const IndexPage = () => (
-  <div>
-    <h1>Welcome to my website</h1>
-    <p>Sample site to Gatsby Crash Course.</p>
-    <p>Now go build something great.</p>
-  </div>
+<Hero />
 )
 
 export default IndexPage

@@ -5,11 +5,12 @@ import Helmet from 'react-helmet'
 import Header from '../components/header'
 import Menu from '../components/menu'
 
-
-import './index.css'
+import './index.scss'
 
 const Layout = ({ children, data }) => (
   <div>
+<Header siteTitle={data.site.siteMetadata.title} />
+  <div className="container">
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
@@ -17,7 +18,6 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'gatsby, react, brayn, brigoli, tutorial' },
       ]}
     />
-    <Header siteTitle={data.site.siteMetadata.title} />
     <Menu/>
     <div
       style={{
@@ -30,6 +30,7 @@ const Layout = ({ children, data }) => (
       {children()}
     </div>
  
+  </div>
   </div>
 )
 

@@ -5,15 +5,18 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@debiki/gatsby-plugin-talkyard": "^0.5.7",
+    "bulma": "^0.7.1",
     "disqus-react": "^1.0.5",
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-catch-links": "^1.0.24",
     "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-plugin-sass": "^1.0.26",
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-transformer-remark": "^1.7.44",
     "react-disqus-thread": "^0.4.0",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "url-loader": "^1.0.1"
   },
   "keywords": [
     "gatsby"

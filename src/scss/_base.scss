@@ -1,0 +1,14 @@
+h1{
+	color: red !important;
+}
+body {
+	z-index: -100;
+	color: $mainGray;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	overflow: hidden;
+	min-height: 100vh;
+background-color: #f3f3f3;
+}
+.is-transparent {
+	background-color: transparent !important;
+}
