@@ -1,19 +1,15 @@
 import React from 'react';
 
+import image from '../images/main-image.png'
 const Hero = () => {
   return (
     <div>
 <section className="hero is-transparent">
   <div className="hero-body">
-    <div className="container">
-      <h1 className="title">
-        Primary title
-      </h1>
-      <h2 className="subtitle">
-        Primary subtitle
-      </h2>
-      <p>
-      Lorem ipsum dolor sit amet, ? Modi.</p>
+
+    <div className="columns main-image-container">
+    <img src={image} alt="Brayn Brigoli" className="main-image is-pulled-right" />
+
     </div>
   </div>
 </section>

@@ -2,10 +2,11 @@
 
 
 	li {
-	mix-blend-mode:  exclusion ;
+
 	font-size: .9rem;
 	z-index: 100;
-	a{color:yellow;
+	a{
+		color: $lightGreen;
 		font-weight: 500;
 	&:hover{
 		color:red

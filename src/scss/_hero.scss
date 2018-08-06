@@ -1,0 +1,38 @@
+.hero {
+	height: 50rem;
+}
+
+.main-image {
+	margin-top: 10rem;
+	width: 15rem;
+	height: 15rem;
+}
+.main-image-container {
+	position: relative;
+	 display: flex;
+  justify-content: flex-end;
+  &:before {
+  	content:'BRAYN BRIGOLI';
+  	letter-spacing: 3.4px;
+  	line-height:.73;
+  	font-size: 3.5rem;
+  	display: block;
+  	width: 15rem;
+  	height: 10rem;
+  	color: $mainOrange;
+  	position: relative;
+  	right: -14.72rem;
+  	bottom: -5.1rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+	.main-image {
+	margin-top: 8rem;
+
+}
+	.main-image-container {
+	  &:before {
+  		bottom: -3.1rem;
+  }
+}
+}

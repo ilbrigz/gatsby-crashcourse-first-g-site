@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
   <div className="navbar-container container">
   <div className="navbar-brand">
 
-    <Link to="/" className="navbar-item">{ siteTitle }</Link>
+    <Link to="/" className="navbar-item logo">{ siteTitle }</Link>
   </div>
 
   <div id="navMenuColorsuccess-example">
