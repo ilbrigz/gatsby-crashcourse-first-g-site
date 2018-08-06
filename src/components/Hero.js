@@ -7,8 +7,40 @@ const Hero = () => {
 <section className="hero is-transparent">
   <div className="hero-body">
 
-    <div className="columns main-image-container">
-    <img src={image} alt="Brayn Brigoli" className="main-image is-pulled-right" />
+    <div className="columns">
+    <div className="column col-image-container">
+    <div className="main-image-container">
+    <img src={image} alt="Brayn Brigoli" className="main-image" /></div>
+    </div>
+    </div>
+    <div className="columns">
+    <div className="column">
+    <ul className="hero--ul">
+    <li className="hero--p is-green-main">
+        Coder
+    </li>
+    <li className="hero--p is-green-dark">
+        Designer
+    </li>
+
+      <li className="hero--p is-green-light">
+        Web Developer
+    </li>
+    </ul>
+    </div>
+
+    </div>
+    <div className="columns">
+    <div className="column">
+        <p className="text-container">
+            A Filipino Freelance Web Developer.
+            I build buitiful interfaces.
+            With focus on web performance. I make sites and
+            images respond to what the user needs.
+            I make sure my codes are clean.
+            I provide Testing, SEO And Social Media Optimization.
+        </p>
+    </div>
 
     </div>
   </div>

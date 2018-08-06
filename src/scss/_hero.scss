@@ -1,38 +1,90 @@
 .hero {
 	height: 50rem;
 }
-
 .main-image {
-	margin-top: 10rem;
+	margin-top: -5.2rem;
 	width: 15rem;
-	height: 15rem;
+}
+
+.col-image-container {
+display: flex;
+justify-content: flex-end;
+position: relative;
+margin-top: 4rem;
 }
 .main-image-container {
-	position: relative;
-	 display: flex;
-  justify-content: flex-end;
   &:before {
   	content:'BRAYN BRIGOLI';
-  	letter-spacing: 3.4px;
-  	line-height:.73;
+  	position: relative;
+  	letter-spacing: 3.6px;
+  	line-height:.7;
   	font-size: 3.5rem;
   	display: block;
   	width: 15rem;
   	height: 10rem;
   	color: $mainOrange;
   	position: relative;
-  	right: -14.72rem;
-  	bottom: -5.1rem;
+  	right: .23rem;
+  	// bottom: -5.1rem;
   }
 }
-@media only screen and (max-width: 800px) {
-	.main-image {
-	margin-top: 8rem;
+.hero--p{
+	font-size: 2rem;
+	white-space:nowrap
+}
+
+.hero--ul {
+	display: flex;
 
 }
-	.main-image-container {
-	  &:before {
-  		bottom: -3.1rem;
-  }
+.hero--p:not(:first-child){
+		padding-left:2rem;
+border-left: 2px solid $mainGreen;
+}
+.hero--p:not(:last-child){
+
+		padding-right:2rem;
+}
+
+.is-green {
+	&-light {
+	color: $lightGreen;
+	}
+	&-dark {
+	color: $darkGreen;
+	}
+	&-main {
+	color: $mainGreen;
+	}
+}
+.text-container {
+	background-color: $mainTextBg;
+	padding: 1rem;
+}
+@media only screen and (max-width: 800px) {
+
+.col-image-container {
+display: flex;
+justify-content: center;
+}
+
+.hero--p{
+	font-size: 1.2rem;
+
+}
+
+.hero--ul {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+.hero--p:not(:first-child){
+		padding-left:.5rem;
+border-left: 2px solid $mainGreen;
+}
+.hero--p:not(:last-child){
+
+		padding-right:.5rem;
 }
 }
