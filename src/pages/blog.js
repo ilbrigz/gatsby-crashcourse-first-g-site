@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const BlogPage = ({data}) => (
-  <div>
+  <div className="page-container">
     <h1>Latest Posts</h1>
     {data.allMarkdownRemark.edges.map(post => (
 		<div key={post.node.id}>

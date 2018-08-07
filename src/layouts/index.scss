@@ -1,8 +1,9 @@
-
-@import "../scss/variables";
 @import "../scss/normalize";
 @import "~bulma/bulma";
+@import "../scss/variables";
+@import "../scss/helper";
 @import "../scss/base.scss";
 @import "../scss/header.scss";
 @import "../scss/menu.scss";
 @import "../scss/hero.scss";
+@import "../scss/post.scss";

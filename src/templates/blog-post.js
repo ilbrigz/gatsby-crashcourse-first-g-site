@@ -7,15 +7,14 @@ export default function Template({data}) {
 	const post = data.markdownRemark
 
 	return (
-		<div>
+		<div className="page-container">
 		<Link to="/blog">Go Back</Link>
 		<hr/>
 		<h1>{post.frontmatter.title}</h1>
-			<h1>{post.frontmatter.title}</h1>
-		<p>{post.frontmatter.path}</p>
 		<h4>Posted by {post.frontmatter.author} on { post.frontmatter.date} </h4>
 		<div dangerouslySetInnerHTML={{ __html:post.html }}/>
-		    <ReactDisqusThread
+
+		<ReactDisqusThread
        		 shortname="brigzdev-com"
           identifier={post.frontmatter.path}
           title={post.frontmatter.title}

@@ -12,12 +12,11 @@ const Menu = () => {
 
     }}
         className="menu">
-        <li><Link to="/">Home</Link></li>
-    <li><Link to="/about">About</Link></li>
-    <li><Link to="/services">Services</Link></li>
-    <li><Link to="/blog">Blog</Link></li>
-    </ul>
-
+        <li><Link to="/" className="menu-link" activeClassName="link-active" exact>Home</Link></li>
+    <li><Link to="/about" className="menu-link" activeClassName="link-active">About</Link></li>
+    <li><Link to="/services" className="menu-link" activeClassName="link-active">Services</Link></li>
+    <li><Link to="/blog" className="menu-link" activeClassName="link-active">Blog</Link></li>
+        </ul>
     </div>
   )
 }

@@ -12,3 +12,7 @@ background-color: #f3f3f3;
 .is-transparent {
 	background-color: transparent !important;
 }
+
+div {
+	box-sizing: content-box;
+}

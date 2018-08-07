@@ -45,22 +45,6 @@ border-left: 2px solid $mainGreen;
 
 		padding-right:2rem;
 }
-
-.is-green {
-	&-light {
-	color: $lightGreen;
-	}
-	&-dark {
-	color: $darkGreen;
-	}
-	&-main {
-	color: $mainGreen;
-	}
-}
-.text-container {
-	background-color: $mainTextBg;
-	padding: 1rem;
-}
 @media only screen and (max-width: 800px) {
 
 .col-image-container {

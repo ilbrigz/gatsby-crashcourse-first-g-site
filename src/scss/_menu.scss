@@ -1,18 +1,28 @@
 .menu{
 
-
 	li {
 
 	font-size: .9rem;
 	z-index: 100;
-	a{
+			transition: all .1s ease-out;
+	.menu-link {
+
 		color: $lightGreen;
 		font-weight: 500;
 	&:hover{
-		color:red
+		color:$darkGreen;
+		}
+
+		}
+		&:hover {
+				transform: scale(1.05);
+
+		}
+		}
 	}
+.link-active{
+		color: $mainGreen;
 	}
-}} 
 // normal | multiply | screen | multiply |
 // darken | lighten | color-dodge | color-burn | hard-light | soft-light |
  //difference | exclusion | hue | saturation | color | luminosity

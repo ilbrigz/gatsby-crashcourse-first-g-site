@@ -1,6 +1,6 @@
 import React from 'react';
 
-import image from '../images/main-image.png'
+import image from '../../images/main-image.png'
 const Hero = () => {
   return (
     <div>
@@ -31,14 +31,17 @@ const Hero = () => {
 
     </div>
     <div className="columns">
-    <div className="column">
-        <p className="text-container">
+    <div className="column is-10">
+        <p className="text-content">
             A Filipino Freelance Web Developer.
-            I build buitiful interfaces.
+            I build beautiful interfaces for you.
+            Strong clean visual design sense.
             With focus on web performance. I make sites and
             images respond to what the user needs.
             I make sure my codes are clean.
             I provide Testing, SEO And Social Media Optimization.
+            Extensive knowledge of JavaScript for rapid prototyping purposes.
+  
         </p>
     </div>
 

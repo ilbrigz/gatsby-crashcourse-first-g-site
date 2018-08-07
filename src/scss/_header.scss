@@ -22,7 +22,12 @@
 	font-size: 2rem;
 border: 1px solid $mainViolet;
 margin-left: 1rem;
-
+transition: all .1s ease-out;
+&:hover {
+	color:$mainGreen;
+	border: 1px solid $mainGreen;
+	transform: scale(1.1);
+}
 }
 .navbar {
 	position: relative;
@@ -48,7 +53,7 @@ z-index: 0;
     display: block;
     width: 95vw;
     height: 63vw;
-    background-color: #46227f;
+    background-color: $darkViolet;
     transform: rotate(41deg);
     z-index: -1;
     top: -133%;
@@ -62,7 +67,7 @@ z-index: 0;
     right: -60%;
     width: 113vw;
     height: 91vw;
-    background-color: #4d2088;
+    background-color: $lightViolet;
     transform: rotate(45deg);
     z-index: -2;
 }
